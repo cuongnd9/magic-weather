@@ -1,7 +1,6 @@
 # weather-cli
 
-[![Build Status](https://travis-ci.org/cuongw/weather-cli.svg?branch=master)](https://travis-ci.org/cuongw/weather-cli)
-![](https://img.shields.io/david/cuongw/weather-cli.svg?style=flat-square)
+[![Build Status](https://travis-ci.com/cuongw/weather-cli.svg?token=BrDbfYWUGDSpbNJ4h6P1&branch=master)](https://travis-ci.com/cuongw/weather-cli)![](https://img.shields.io/david/cuongw/weather-cli.svg?style=flat-square)
 ![](https://img.shields.io/github/license/cuongw/weather-cli.svg?style=flat-square)
 ![](https://img.shields.io/badge/awesome-yes-brightgreen.svg?style=flat-square)
 
