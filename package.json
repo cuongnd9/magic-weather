@@ -1,5 +1,5 @@
 {
-  "name": "light-weather-cli",
+  "name": "magic-weather",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "url": "https://github.com/cuongw"
   },
   "license": "MIT",
-  "repository": "cuongw/weather-cli",
+  "repository": "cuongw/magic-weather",
    "keywords": [
     "cli-app",
     "cli",
