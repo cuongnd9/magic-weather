@@ -3,6 +3,7 @@ const moment = require('moment')
 const chalk = require('chalk')
 
 const unit = require('./unit')
+const icon = require('./icon')
 
 const argv = require('yargs').argv
 const log = console.log
@@ -19,7 +20,8 @@ request(url, (err, res, body) => {
 
 		let location = '🌏 ' + weather.name + ', ' + weather.sys.country
 		let time = '📅 ' + moment().format('dddd h:mm a')
-		let description = '🌤️  ' + weather.weather[0].description
+		let description = icon.weather(weather.weather[0].icon) + ' ' + 
+		weather.weather[0].description
 		let temp = '🌡️  ' + unit.toFahrenheit(weather.main.temp) + ' °F'
 		let duringTemp = '🌡️  ' + unit.toFahrenheit(weather.main.temp_min) + 
 		' - ' + unit.toFahrenheit(weather.main.temp_max) + ' °F'
