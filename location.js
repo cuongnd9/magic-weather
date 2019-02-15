@@ -14,6 +14,6 @@ module.exports = async () => {
     const data = response.data
     return data.city
 	} catch(err) {
-		log(chalk.redBright('Error when finding your location.\nPlease try again!'))
+		log(chalk.bgRedBright('Error when finding your location.\nPlease try again!'))
 	}
 }
