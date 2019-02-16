@@ -3,17 +3,21 @@ require('dotenv').config()
 const axios = require('axios')
 const moment = require('moment')
 const chalk = require('chalk')
+const ora = require('ora')
 
-const unit = require('./unit')
-const icon = require('./icon')
-const location = require('./location')
-const time = require('./time')
+const unit = require('./lib/unit')
+const icon = require('./lib/icon')
+const location = require('./lib/location')
+const time = require('./lib/time')
+
 const argv = require('yargs').argv
+
 const log = console.log
 
 const apiKey = process.env.API_KEY_WEATHER
 
 const app = async () => {
+	const spinner = ora('Loading your weather...').start()
 	try {
 		const city = argv.city || await location() || 'Ho Chi Minh City'
 		const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
@@ -47,10 +51,10 @@ const app = async () => {
 
 			${chalk.whiteBright(wind)}
 		`
-
+		spinner.succeed('Done')
 		log(message)
 	} catch(err) {
-		log(chalk.bgRedBright('Error when finding your weather.\nPlease try again!'))
+		spinner.fail('Error when finding your weather.\nPlease try again!')
 	}
 }
 
