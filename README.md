@@ -1,7 +1,7 @@
 # weather-cli
 
-![](https://img.shields.io/david/jade28/weather-cli.svg?style=flat-square)
-![](https://img.shields.io/github/license/jade28/weather-cli.svg?style=flat-square)
+![](https://img.shields.io/david/cuongw/weather-cli.svg?style=flat-square)
+![](https://img.shields.io/github/license/cuongw/weather-cli.svg?style=flat-square)
 ![](https://img.shields.io/badge/awesome-yes-brightgreen.svg?style=flat-square)
 
 > 🚀 Awesome ☀️ weather for terminal.
