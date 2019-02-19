@@ -1,30 +1,31 @@
 # weather-cli
 
+[![Build Status](https://travis-ci.org/cuongw/weather-cli.svg?branch=master)](https://travis-ci.org/cuongw/weather-cli)
 ![](https://img.shields.io/david/cuongw/weather-cli.svg?style=flat-square)
 ![](https://img.shields.io/github/license/cuongw/weather-cli.svg?style=flat-square)
 ![](https://img.shields.io/badge/awesome-yes-brightgreen.svg?style=flat-square)
 
 > 🚀 Awesome ☀️ weather for terminal.
 
-![weather](https://user-images.githubusercontent.com/34389409/51784661-ee5a4500-217e-11e9-9373-e67bab6ce32c.gif)
+![weather](https://user-images.githubusercontent.com/34389409/52731113-89607500-2fef-11e9-8000-a08eef48fbff.gif)
 
 ## Installation
 
+Clone this project:
+```
+$ git clone https://github.com/cuongw/weather-cli.git
+```
+Change directory `weather-cli` & allow execute script:
+```
+$ cd weather-cli && chmod +x index.js
+```
+Run script anywhere
+```
+$ npm link
+```
+Install packages
 ```
 $ npm install
-```
-
-You need 3 API Keys to run app:
-* [OpenWeatherMap](https://openweathermap.org/api)
-* [ipfind](https://ipfind.com/)
-* [World Weather Online](https://www.worldweatheronline.com/developer/)
-
-Create `.env` file:
-
-```
-API_KEY_WEATHER=*************************
-API_KEY_LOCATION=*************************
-API_KEY_TIME=*************************
 ```
 
 ## Usage
@@ -34,16 +35,16 @@ API_KEY_TIME=*************************
 Get weather at your location.
 
 ```
-$ node index.js
+$ weather
 ```
 
 ### Option
 
 ```
-$ node index.js --city city-name
+$ weather --city city-name
 ```
 
-Example: `$ node index.js --city DaNang`
+Example: `$ weather --city DaNang`
 
 Enjoy 😜
 
