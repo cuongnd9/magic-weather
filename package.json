@@ -1,13 +1,24 @@
 {
-  "name": "weather-cli",
+  "name": "light-weather-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Cuong Duy Nguyen",
+    "email": "ndc07.it@gmail.com",
+    "url": "https://github.com/cuongw"
+  },
+  "license": "MIT",
+  "repository": "cuongw/weather-cli",
+   "keywords": [
+    "cli-app",
+    "cli",
+    "weather",
+    "temperature"
+  ],
   "dependencies": {
     "axios": "^0.18.0",
     "chalk": "^2.4.2",
