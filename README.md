@@ -7,7 +7,7 @@
 
 > 🚀 Magic ☀️ weather for terminal.
 
-![magic-weather](https://user-images.githubusercontent.com/34389409/52731113-89607500-2fef-11e9-8000-a08eef48fbff.gif)
+![magic-weather](https://user-images.githubusercontent.com/34389409/53101278-03e34480-355c-11e9-8f64-e27a2c38fe58.gif)
 
 ## Install
 
@@ -31,9 +31,9 @@ $ weather
 $ weather <your city>
 ```
 
-Example: `$ weather DaNang`
+Example: `$ weather Danang`
 
-Enjoy 😜
+Awesome 🎉
 
 ## License
 
