@@ -13,8 +13,6 @@ const time = require('./lib/time')
 
 const args = process.argv
 
-const log = console.log
-
 const apiKey = constant.API_KEY_WEATHER
 
 const app = async () => {
@@ -53,7 +51,7 @@ const app = async () => {
 			${chalk.whiteBright(wind)}
 		`
 		spinner.succeed('Done')
-		log(message)
+		console.log(message)
 	} catch(err) {
 		spinner.fail('Error when finding your weather.\nPlease try again!')
 	}

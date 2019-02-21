@@ -1,9 +1,9 @@
 # magic-weather
 
 [![Build Status](https://travis-ci.com/cuongw/magic-weather.svg?token=BrDbfYWUGDSpbNJ4h6P1&branch=master)](https://travis-ci.com/cuongw/magic-weather)
+![npm](https://img.shields.io/npm/v/magic-weather.svg?style=flat-square)
 ![](https://img.shields.io/david/cuongw/magic-weather.svg?style=flat-square)
 ![](https://img.shields.io/github/license/cuongw/magic-weather.svg?style=flat-square)
-![](https://img.shields.io/badge/awesome-yes-brightgreen.svg?style=flat-square)
 
 > 🚀 Magic ☀️ weather for terminal.
 
