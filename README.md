@@ -28,10 +28,10 @@ $ weather
 ### Option
 
 ```
-$ weather --city city-name
+$ weather <your city>
 ```
 
-Example: `$ weather --city DaNang`
+Example: `$ weather DaNang`
 
 Enjoy 😜
 

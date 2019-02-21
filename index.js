@@ -1,27 +1,26 @@
 #!/usr/bin/env node
 
-require('dotenv').config()
-
 const axios = require('axios')
 const moment = require('moment')
 const chalk = require('chalk')
 const ora = require('ora')
 
+const constant = require('./constant')
 const unit = require('./lib/unit')
 const icon = require('./lib/icon')
 const location = require('./lib/location')
 const time = require('./lib/time')
 
-const argv = require('yargs').argv
+const args = process.argv
 
 const log = console.log
 
-const apiKey = process.env.API_KEY_WEATHER
+const apiKey = constant.API_KEY_WEATHER
 
 const app = async () => {
 	const spinner = ora('Loading your weather...').start()
 	try {
-		const city = argv.city || await location() || 'Ho Chi Minh City'
+		const city = args[2] || await location() || 'Ho Chi Minh City'
 		const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
 
 		const response = await axios.get(url)
