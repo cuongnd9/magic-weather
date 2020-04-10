@@ -1,6 +1,6 @@
 {
   "name": "magic-weather",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "🚀 Magic ☀️ weather for terminal.",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,15 @@
   },
   "author": {
     "name": "Cuong Duy Nguyen",
-    "email": "ndc07.it@gmail.com",
-    "url": "https://github.com/cuongw"
+    "email": "103cuong@gmail.com",
+    "url": "https://github.com/103cuong"
   },
   "license": "MIT",
-  "repository": "cuongw/magic-weather",
+  "repository": "103cuong/magic-weather",
   "bugs": {
-    "url": "https://github.com/cuongw/magic-weather/issues"
+    "url": "https://github.com/103cuong/magic-weather/issues"
   },
-  "homepage": "https://github.com/cuongw/magic-weather#readme",
+  "homepage": "https://github.com/103cuong/magic-weather#readme",
   "keywords": [
     "cli-app",
     "cli",
