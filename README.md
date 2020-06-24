@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.com/103cuong/magic-weather.svg?token=BrDbfYWUGDSpbNJ4h6P1&branch=master)](https://travis-ci.com/103cuong/magic-weather)
 ![npm](https://img.shields.io/npm/v/magic-weather.svg?style=flat-square)
-![](https://img.shields.io/david/103cuong/magic-weather.svg?style=flat-square)
 ![](https://img.shields.io/github/license/103cuong/magic-weather.svg?style=flat-square)
 
 > 🚀 Magic ☀️ weather for terminal.
@@ -16,16 +15,6 @@ npm i magic-weather -g
 ```
 
 ## Usage
-
-### Default
-
-Get weather at your location.
-
-```
-$ weather
-```
-
-### Option
 
 ```
 $ weather <your city>
