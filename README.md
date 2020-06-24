@@ -1,9 +1,9 @@
 # magic-weather
 
-[![Build Status](https://travis-ci.com/cuongw/magic-weather.svg?token=BrDbfYWUGDSpbNJ4h6P1&branch=master)](https://travis-ci.com/cuongw/magic-weather)
+[![Build Status](https://travis-ci.com/103cuong/magic-weather.svg?token=BrDbfYWUGDSpbNJ4h6P1&branch=master)](https://travis-ci.com/103cuong/magic-weather)
 ![npm](https://img.shields.io/npm/v/magic-weather.svg?style=flat-square)
-![](https://img.shields.io/david/cuongw/magic-weather.svg?style=flat-square)
-![](https://img.shields.io/github/license/cuongw/magic-weather.svg?style=flat-square)
+![](https://img.shields.io/david/103cuong/magic-weather.svg?style=flat-square)
+![](https://img.shields.io/github/license/103cuong/magic-weather.svg?style=flat-square)
 
 > 🚀 Magic ☀️ weather for terminal.
 
@@ -31,7 +31,7 @@ $ weather
 $ weather <your city>
 ```
 
-Example: `$ weather Danang`
+Example: `$ weather Hanoi`
 
 Awesome 🎉
 

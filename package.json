@@ -1,6 +1,6 @@
 {
   "name": "magic-weather",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "🚀 Magic ☀️ weather for terminal.",
   "main": "index.js",
   "scripts": {
